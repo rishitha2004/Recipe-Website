@@ -1,0 +1,177 @@
+/* Navigation styling */
+nav {
+    background-color: #333; /* Add a background color to make the navbar visible */
+}
+
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #ffffff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+/* Section Intro styling */
+.section-intro {
+    background-image: url('path/to/your/image.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire section with the background image */
+    background-position: center; /* Center the background image */
+    height: 500px; /* Adjust the height as needed */
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+    color: #fff; /* Text color */
+}
+
+.section-intro h1 {
+    font-size: 5em;
+    color: #2b0fe0; /* Adjust font size */
+    font-weight: 1000; /* Set font weight to bold */
+    text-transform: uppercase; /* Convert text to uppercase */
+}
+
+.link-to-search-wrapper {
+    margin-top: -50px; /* Adjust margin as needed */
+}
+
+
+.section-intro header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px
+}
+
+/* About section styling */
+.about-section {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    padding: 50px 30px;
+}
+
+.about-section p,
+.about-section h3 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+/* Search box styling */
+.search-box {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.search-box input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 576px) {
+    .search-box input[type="text"] {
+        width: 100%;
+    }
+}
+
+/* Recipe section styling */
+.recipes-section {
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.recipe-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.recipe-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.recipe-info {
+    text-align: center;
+}
+
+.recipe-ingredients {
+    margin-bottom: 10px;
+}
+
+.add-to-favorites,
+.view-details {
+    margin-top: 10px;
+}
+
+.add-to-favorites {
+    background-color: #FF5733; /* Orange color for add to favorites button */
+    border-color: #FF5733;
+}
+
+.add-to-favorites:hover {
+    background-color: #FF784F; /* Darker orange color on hover */
+    border-color: #FF784F;
+}
+
+.view-details {
+    background-color: #66BB6A; /* Green color for view details button */
+    border-color: #66BB6A;
+}
+
+.view-details:hover {
+    background-color: #4CAF50; /* Darker green color on hover */
+    border-color: #4CAF50;
+}
